@@ -1,0 +1,203 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #f2f2f2;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* HEADER */
+.header {
+  background: #004f9f;
+  color: white;
+  padding: 1.2rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav ul li a:hover {
+  opacity: 0.8;
+}
+
+/* HERO SECTION */
+.hero {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2rem;
+  flex-wrap: wrap;
+}
+
+.hero-text h2 {
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+.hero-role {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ff5722;
+}
+
+.hero-text p {
+  margin-top: 1rem;
+  width: 70%;
+  color: #555;
+}
+
+.hero-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #e0e0e0;
+}
+
+/* SECTIONS */
+.section {
+  padding: 2.5rem 2rem;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+/* SKILLS GRID */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.skill-card {
+  background: #0a66c2;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+}
+
+.skill-card span {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: 300;
+}
+
+/* PROJECT CARDS */
+.project-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  
+}
+
+/* CONTACT FORM */
+.contact-box {
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.contact-box input,
+.contact-box textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 2px solid #c8c8c8;
+  border-radius: 5px;
+}
+
+.contact-box button {
+  width: 100%;
+  background: #004f9f;
+  color: white;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-box button:hover {
+  background: #003b7a;
+}
+
+/* FOOTER */
+.footer {
+  background: #004f9f;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero-text p {
+    width: 100%;
+  }
+
+  .hero {
+    text-align: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+/* Back top top button */
+.back-to-top{
+    text-decoration: none;
+    text-align: left;
+    position: fixed;
+    bottom: 20px;      
+    right: 20px;        
+    background-color: blue;  
+    color: white;       
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    
+}
+
+
