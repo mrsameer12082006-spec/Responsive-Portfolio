@@ -117,5 +117,9 @@ Enjoy your responsive portfolio!
 
 ---
 
+### 📷 Output
+<img width="1920" height="1080" alt="Screenshot (52)" src="https://github.com/user-attachments/assets/931659a3-7d61-4a62-ba80-cf63d252d2fc" />
+
+
 ### 🧑‍💻 Author
 Sameer Mishra
